@@ -1,9 +1,9 @@
 {
-  "name": "mi-app",
-  "private": true,
+  "name": "ariete",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hypnos85.github.io/mi-app",
+  "homepage": "https://hypnos85.github.io/ariete",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
