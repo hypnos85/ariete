@@ -1,0 +1,18 @@
+/* src/styles/Home.css */
+.centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.portada {
+    margin-top: 20px;
+    max-width: 300px;
+    width: 80%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+  
