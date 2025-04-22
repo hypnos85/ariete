@@ -5,18 +5,18 @@ const Contacto = () => {
   return (
     <div className="centro">
       <h1>Contacto</h1>
-      <p>¡Gracias por visitar nuestro sitio web! Si tienes alguna pregunta o comentario, no dudes en contactarnos a través de los siguientes medios:</p>
+      <p>Si estas interesad@ en contratarnos o simplemente tienes alguna pregunta no dudes en contactarnos a través de los siguientes medios:</p>
       
       <div className="contact-info">
-        <p><strong>Email:</strong> contacto@ariete.com</p>
-        <p><strong>Teléfono:</strong> +123 456 7890</p>
+        <p><strong>Email:</strong> contrataciones@ariete.com</p>
+        <p><strong>Teléfono:</strong> +34 634 456 780</p>
         <p><strong>Redes Sociales:</strong> 
           <ul>
-            <li><a href="https://www.facebook.com/ariete" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://www.youtube.com/@%C3%84RIETE_BAND" target="_blank" rel="noopener noreferrer">Youtube</a></li>
             <li><a href="https://www.instagram.com/ariete" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-            <li><a href="https://www.twitter.com/ariete" target="_blank" rel="noopener noreferrer">Twitter</a></li>
           </ul>
         </p>
+        <p>¡Gracias por visitar nuestro sitio web!</p>
       </div>
     </div>
   );
