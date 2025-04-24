@@ -23,6 +23,41 @@ body::before {
   background-position: 50% 30%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  filter: saturate(3) hue-rotate(-20deg) brightness(0.4);
   z-index: -2;
+}
+
+/* ==== FONDO 1 QUE OSCILA LIGERAMENTE CON EL RATÓN ==== */
+#fondo1-image {
+  position: absolute;
+  pointer-events: none; /* No bloqueará interacciones */
+  top: 50%; /* Inicialmente en el centro de la página */
+  left: 50%;
+  width: 120vw; /* Ancho 120% de la pantalla */
+  height: 120vh; /* Alto 120% de la pantalla */
+  background-image: url('../images/fondo1.png'); /* Ruta de la imagen */
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center center; /* Asegura que la imagen se centre */
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%); /* Para centrar la imagen */
+  transition: transform 0.2s ease-out; /* Agrega un pequeño retraso */
+  z-index: -1; /* Asegura que esté por debajo del contenido */
+  pointer-events: none; /* Asegura que no interfiera con interacciones */
+}
+
+/* ==== FONDO 3 QUE OSCILA LIGERAMENTE CON EL RATÓN ==== */
+#cursor-image {
+  position: absolute;
+  pointer-events: none; /* No bloqueará interacciones */
+  top: 50%; /* Inicialmente en el centro de la página */
+  left: 50%;
+  width: 120vw; /* Ancho 120% de la pantalla */
+  height: 120vh; /* Alto 120% de la pantalla */
+  background-image: url('../images/fondo2.webp'); /* Ruta de la imagen */
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center center; /* Asegura que la imagen se centre */
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%); /* Para centrar la imagen */
+  transition: transform 0.2s ease-out; /* Agrega un pequeño retraso */
+  z-index: -1; /* Asegura que esté por debajo del contenido */
+  pointer-events: none; /* Asegura que no interfiera con interacciones */
 }
