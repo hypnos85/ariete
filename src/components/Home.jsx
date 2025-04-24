@@ -10,7 +10,7 @@ const Home = () => {
         <h1>Äriete</h1>
         <h2>Presentando</h2>
         <h3>Las flores del muelle</h3>
-        <img src="../../public/images/banda1.jpeg" alt="Las flores del muelle" className="portada" />
+        <img src="/images/banda1.jpeg" alt="Las flores del muelle" className="portada" />
       </div>
     </div>
   );
